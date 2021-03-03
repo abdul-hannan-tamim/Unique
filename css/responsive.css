@@ -1,0 +1,300 @@
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (max-width: 767px) and (min-width: 481px) {
+  
+ 
+
+}
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (max-width: 480px) and (min-width: 320px) {
+  
+  
+
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media  screen and (max-width: 1024px) and (min-width: 768px) {
+  /***************Code Start*****************************/
+	  .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+	    margin-left: 122px;
+	}
+	.header-section .navbar-brand img {
+    margin-left: -112px;
+    }
+	nav.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top {
+	  	    background: transparent !important;
+	}
+	.header-section .navbar-light .navbar-nav .nav-link.active {
+	   
+	    background: url(../images/lr.png) left bottom no-repeat;
+	    background-size: auto;
+	}
+	 .header-section .navbar-light .navbar-nav .nav-link:hover {
+	    background: url(../images/lr.png)left bottom no-repeat;
+	    background-size: auto;
+	}
+	.navbar-light .navbar-toggler {
+		color: rgb(42 29 243 / 55%);
+	    border-color: rgba(0,0,0,.2);
+	    margin-right: -110px;
+	}
+	.navbar-toggler:focus {
+	    box-shadow: 0px;
+	}
+	.banner{
+		    padding: 0px 0px 0px 25px;
+	}
+	 .inner-banner h1 {
+		font-size: 30px;
+	    font-weight: 800;
+	    text-align: right;
+	    margin-right: 82px
+    }
+
+    .Highlite{
+		width: 100%;
+		background: url("../images/highbg.png") center top no-repeat;
+		background-size: cover;
+		padding: 50px 0px;
+		position: relative;
+		margin-top: -15px;
+	} 
+	.Highlite .inner-high img{
+	    width: 220px;
+	    position: absolute;
+	    margin-top: -94px;
+	    margin-left: -15px;
+	}
+	.Highlite .inner-high h2{
+		font-size: 18px;
+		font-weight: 700;
+		text-align: center;
+		color: #fff;
+	}
+	
+	
+
+
+
+	.Feature .inner-feature {
+	    background: url(../images/ill.png) center top no-repeat;
+	    background-size: cover;
+	    box-shadow: 1px 4px 10px #ccc;
+	    padding: 105px;
+	    margin: 60px 0px 0px 0px;
+	}
+	.Feature .inner-feature h1 {
+	    font-size: 30px;
+	    font-weight: 900;
+	    margin: -70px 0px 0px -60px;
+	}
+	.Feature .inner-feature p {
+	    font-size: 10px;
+	    font-weight: 600;
+	    margin: 20px 0px 0px -60px;
+	}
+	.Feature .inner-feature .inner-percent p .percent {
+	    font-size: 70px;
+	    font-weight: 900;
+	    background: linear-gradient(to right,#511de5, #1183f9);
+	    -webkit-text-fill-color: transparent;
+	    -webkit-background-clip: text;
+	    -o-background-clip: text;
+	    -ms-background-clip: text;
+	}
+	.Feature .inner-feature .inner-percent p .pro {
+	    font-size: 10px;
+	    font-weight: 600;
+	}
+
+
+
+	.inrto-quote {
+	    width: 100%;
+	    padding: 55px 0px;
+	    background: url(../images/qbg.png) center top no-repeat;
+	    background-size: cover;
+	}
+	.inner-quote {
+	    width: 52%;
+	    padding: 95px 0px;
+	    background: url(../images/quote.png)center top no-repeat;
+	    background-size: cover;
+	    margin: 60px 0px 45px -40px;
+	}
+	.inrto-quote .inner-quote p {
+	    font-size: 10px;
+	    font-weight: 600;
+	    color: #fff;
+	    margin: 10px 0px 0px 100px;
+	}
+	.inrto-quote .inner-quote h5 {
+	    font-size: 12px;
+	    font-weight: 600px;
+	    color: #fff;
+	    margin: 30px 0px 0px 100px;
+	}
+	.inrto-quote .inner-text {
+	    width: 100%;
+	    margin: -320px 0px 0px 398px;
+	}
+	.inrto-quote .inner-text h2 {
+	    font-size: 30px;
+	    font-weight: 900;
+	}
+	.inrto-quote .inner-text .btn-info {
+	    padding: 8px 30px;
+	    font-size: 11px;
+	    text-transform: uppercase;
+	    font-weight: 500;
+	    letter-spacing: 3px;
+	    border: 1px solid #f2f2f2;
+	    color: #061113;
+	    border-radius: 35px;
+	    background: #f2f2f2;
+	    margin-top: 20px;
+	}
+
+
+    .inner-feature {
+	    width: 100%;
+	    margin: 0px 0px 0px -55px;
+	}
+		.inner-feature h2 {
+	    font-size: 26px;
+	    font-weight: 900;
+	}
+	.inner-feature p {
+	    font-size: 10px;
+	    font-weight: 600;
+	    margin: 20px 0px;
+	}
+	.inner-feature h5 {
+	    font-size: 12px;
+	    font-weight: 900;
+	}
+	.inner-feature img {
+	    width: 6%;
+	    padding: 10px;
+	    padding: 9px;
+	    margin-right: 10px;
+	}
+	.inner-feature .btn-info {
+	    padding: 8px 30px;
+	    font-size: 8px;
+	    text-transform: uppercase;
+	    font-weight: 500;
+	    letter-spacing: 5px;
+	    border: 1px solid #f2f2f2;
+	    color: #fff;
+	    border-radius: 35px;
+	    background: none;
+	    background: linear-gradient(
+		95deg
+		,#511de5, #1183f9);
+		margin-top: 20px;
+	}
+
+	.inner-img img {
+	    width: 65%;
+	    float: right;
+	    margin: -394px -50px 0px 0px;
+	}
+
+
+	.feedback .work h2 {
+	    font-size: 30px;
+	    font-weight: 900;
+	    margin-bottom: 20px;
+	}
+	.feedback .work p {
+	    font-size: 10px;
+	    font-weight: 600;
+	}
+	.inner-info img {
+    width: 32%;
+	}
+	.inner-info h5 {
+	    font-size: 13px;
+	    font-weight: 800;
+	    margin-top: 30px;
+	    margin-bottom: 10px;
+	}
+	.inner-info p {
+	    font-size: 10px;
+	    font-weight: 600;
+	}
+	.inner-info {
+    width: 100%;
+    padding: 25px 0px;
+    text-align: center;
+    padding: 0px 25px;
+    margin-top: 60px;
+    margin-bottom: -35px;
+	}
+	.Quotes-slider h1 {
+	    font-size: 30px;
+	    font-weight: 900;
+	    text-align: center;
+	    margin-bottom: 20px;
+	}
+	.Quotes-slider .full-box .speech h5 {
+	    font-size: 10px;
+	    
+	}
+	.Quotes-slider .full-box .inner-speech img, svg {
+	    width: 40px;
+	    vertical-align: middle;
+	}
+	.Quotes-slider .inner-speech h4 {
+	    font-size: 10px;
+	    font-weight: 800;
+	    color: #000;
+	}
+	.Quotes-slider .inner-speech p {
+	    font-size: 9px;
+	}
+	.Quotes-slider .full-box {
+	    width: 100%;
+	    padding: 35px 10px 20px;
+	}
+	.footer .inner h1 {
+    font-size: 35px;
+    margin: -30px -103px 0px 154px;
+}
+.footer .accordion-flush .accordion-button {
+    font-size: 13px;
+    font-weight: 800;
+}
+.footer .accordion-flush .accordion-body {
+    font-size: 8px;
+}
+.footer .accordion-flush {
+    margin: 75px 0px 0px 110px;
+}
+.footer .bottom-link .bottom-nav a {
+    font-size: 12px;
+}
+.h6, h6 {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+   /***************Codet End*****************************/
+}
+
+
+
